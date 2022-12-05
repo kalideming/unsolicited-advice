@@ -23,4 +23,6 @@ Unsolicited Advice acts as a repository for unwanted guidance. As a user, I can:
     - Recipient Relation
     - Advice
 
-5. If after adding my own unsolicited advice, I still have the unbearable urge to spew my self-declared enlightenment at others, I can head to the bottom of the page and click "Generate Advice" button, which will provide me with a randomized sage quote from a famous figure via an external API, because it is better to regurgitate a blanket-statement from Ghandi than tell someone how to live their lives. 
+5. Update and delete advice from the repository. 
+
+6. If after adding my own unsolicited advice, I still have the unbearable urge to spew my self-declared enlightenment at others, I can head to the bottom of the page and click "Generate Advice" button, which will provide me with a randomized sage quote from a famous figure via an external API, because it is better to regurgitate a blanket-statement from Ghandi than tell someone how to live their lives. 
