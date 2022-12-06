@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
+
 function NavBar() {
     return (
         <header>
@@ -12,10 +13,10 @@ function NavBar() {
                 </Link>
                 <div className="navigation">
                     <NavLink className="button" exact to="/advice">
-                        All The Unwanted Advice 
+                        All The Shit Advice 
                     </NavLink>
-                    <NavLink className="button" exact to="/advice/new">
-                        Add Unwanted Advice 
+                    <NavLink className="button" exact to="/new">
+                        Add Your Shit 
                     </NavLink>
                 </div>
             </nav>

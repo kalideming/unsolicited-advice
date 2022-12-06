@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Switch, Route } from "react-router-dom"
 // import reactLogo from './assets/react.svg'
 // import './App.css'
@@ -9,15 +9,34 @@ import NewAdvicePage from './NewAdvicePage';
 
 function App() {
 
-    const [advice, setAdvice] = useState([]);
+    const [unsolicited, setUnsolicited] = useState([]);
 
     useEffect(() => {
         fetch("http://localhost:3000/unsolicited")
         .then((r) => r.json())
-        .then((adviceData) => setAdvice(adviceData));
+        .then((unsolicited) => setUnsolicited(unsolicited));
     },[]);
 
-    function handleNewAdvice(newAdvice)
+    function handleNewAdvice(newAdvice) {
+        setUnsolicited([...unsolicited, newAdvice])
+    };
+
+    return (
+        <div>
+            <NavBar />
+            <Switch>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+                <Route path="/new">
+                    <NewAdvicePage handleNewAdvice={handleNewAdvice} />
+                </Route>
+                <Route path="/advice">
+                    <AdvicePage unsolicited={unsolicited} setUnsolicited={setUnsolicited} />
+                </Route>
+            </Switch>
+        </div>
+    )
 }
 
 export default App
