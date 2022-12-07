@@ -7,7 +7,7 @@ function Search({ searchField, setSearchField }) {
     };
 
     return (
-        <div className="searchbar">
+        <div>
             <label htmlFor="search">Search Unsolicited Advice:</label>
             <input
                 type="text"

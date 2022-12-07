@@ -3,11 +3,13 @@ import React from "react";
 function AdviceCard({ unsolicited }) {
 
     return (
-        <li className="card">
-            <h4>{unsolicited.advice}</h4>
-            <p>Topic: {unsolicited.topic}</p>
-            <p>Relation to recipient: {unsolicited.relation}</p>
-        </li>
+        <div>
+            <div>
+                <span>Topic: {unsolicited.topic}</span>
+                <span>Relation to recipient: {unsolicited.relation}</span>
+            </div> 
+            <span>{unsolicited.advice}</span>
+        </div>
     );
 };
 

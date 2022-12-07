@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-      <section className="box">
+      <section>
         <h2>
           Welcome To The Online Dumpster-Gallery Of Advice No One Wants.
         </h2>

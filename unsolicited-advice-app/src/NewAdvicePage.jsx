@@ -34,7 +34,7 @@ function NewAdvicePage({ handleNewAdvice }) {
     };
 
     return (
-        <div className="new-advice-page">
+        <div>
           <h2>Tell Us, O Wise One, How To Live</h2>
           <form onSubmit={handleSubmit}>
             <input 
