@@ -4,23 +4,23 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <div class="bg-black text-white h-19">
-            <nav class="justify-start space-x-20">
-                <span class="font-HanaleiFill text-5xl">
+        <div class="bg-black text-white h-16 flex-auto items-center">
+            <nav class="justify-start space-x-10">
+                <div class="font-HanaleiFill text-5xl inline-block align-center items-center">
                     <Link to="/">
                         Unsolicited Advice
                     </Link>
-                </span>
-                <span>
+                </div>
+                <div class="font-Barriecito text-2xl inline-block align-center items-center">
                     <NavLink exact to="/advice">
                         All The Shit Advice 
                     </NavLink>
-                </span>
-                <span>
+                </div>
+                <div class="font-Barriecito text-2xl inline-block align-center items-center">
                     <NavLink exact to="/new">
                         Add Your Shit 
                     </NavLink>
-                </span>
+                </div>
             </nav>
         </div>
     );

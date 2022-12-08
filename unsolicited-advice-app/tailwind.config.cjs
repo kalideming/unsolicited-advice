@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         HanaleiFill: ['Hanalei Fill'],
-        Comfortaa : ['Comfortaa']
+        Barriecito : ['Barriecito']
       },
     },
   },
