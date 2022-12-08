@@ -20,7 +20,7 @@ function Home() {
           Instead of inundating those around you with your undesired, wayward counsel, post it here! Read the unsolicited advice of others, and marvel as your relationships flourish when you speak less and listen more.
         </p>
         <span>
-          <div id="homeButtons">
+          <div>
             <Link className="button" to="/new">
             Tell Everyone How To Live Their Lives
             </Link>

@@ -12,8 +12,12 @@ function AdvicePage({ unsolicited, setUnsolicited }) {
 
     return (
         <main>
-            <Search searchField={searchField} setSearchField={setSearchField} />
-            <AdviceList unsolicited={filteredAdvice} setUnsolicited={setUnsolicited} />
+            <div>
+                <Search searchField={searchField} setSearchField={setSearchField} />
+            </div>
+            <div class="relative">
+                <AdviceList unsolicited={filteredAdvice} setUnsolicited={setUnsolicited}/>
+            </div>
         </main>
     );
 

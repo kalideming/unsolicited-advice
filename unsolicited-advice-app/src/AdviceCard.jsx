@@ -3,12 +3,14 @@ import React from "react";
 function AdviceCard({ unsolicited }) {
 
     return (
-        <div>
-            <div>
-                <span>Topic: {unsolicited.topic}</span>
-                <span>Relation to recipient: {unsolicited.relation}</span>
+        <div class="m-8">
+            <div class="text-start">
+                <span class="px-1">Topic: {unsolicited.topic}</span>
+                <span class="px-1">Relation to Recipient: {unsolicited.relation}</span>
             </div> 
-            <span>{unsolicited.advice}</span>
+            <div class="text-center">
+                {unsolicited.advice}
+            </div>
         </div>
     );
 };
