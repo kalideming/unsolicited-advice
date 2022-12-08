@@ -21,11 +21,11 @@ function App() {
     };
 
     return (
-        <div class="" >
+        <div>
             <NavBar />
             <Switch>
                 <Route exact path="/">
-                    <Home/>
+                    <Home />
                 </Route>
                 <Route path="/new">
                     <NewAdvicePage handleNewAdvice={handleNewAdvice} />

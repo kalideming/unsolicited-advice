@@ -9,7 +9,7 @@ function AdviceList({ unsolicited, setUnsolicited }) {
     });
 
     return (
-        <div class="flex items-center">
+        <div class="self-center flex items-center max-w-screen-lg">
             <div class="grid grid-cols-3 grid-rows-9 m-11">
                 {mappedUnsolicited}
             </div>

@@ -8,8 +8,16 @@ module.exports = {
     extend: {
       fontFamily: {
         HanaleiFill: ['Hanalei Fill'],
-        Barriecito : ['Barriecito']
+        Barriecito : ['Barriecito'],
+        Barrio: ['Barrio'],
+        PatrickHand: ['Patrick Hand'],
+        Gaegu: ['Gaegu'],
+        PatrickHandSC: ['Patrick Hand SC'],
+        WalterTurncoat: ['Walter Turncoat']
       },
+      backgroundImage: {
+        'trash': "url('./src/images/trash.jpg')"
+      }
     },
   },
   plugins: [],

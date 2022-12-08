@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    max-width: 1227px;
+}
 body {
     background-image: url("./images/trash.jpg");
-    background-position: center;
-    background-size:auto;
-    background-repeat:repeat;
+    background-size: 100vmax;
+    background-position:initial;
+    background-attachment: scroll;
 }
