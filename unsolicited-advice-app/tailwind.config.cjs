@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,jpg}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'nerkoOne': 'Nerko One'
+      }
+    },
   },
   plugins: [],
 }

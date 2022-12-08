@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <div class="bg-black text-white">
             <nav class="justify-start space-x-28">
-                <span class="">
+                <span class="font-nerkoOne">
                     <Link to="/">
                         Unsolicited Advice
                     </Link>
