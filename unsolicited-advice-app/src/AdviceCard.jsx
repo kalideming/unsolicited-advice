@@ -8,7 +8,7 @@ function AdviceCard({ unsolicited }) {
                 <div class="px-1 font-PatrickHandSC text-md">Topic: {unsolicited.topic}</div>
                 <div class="px-1 font-PatrickHandSC text-sm">Relation to Recipient: {unsolicited.relation}</div>
             </div> 
-            <div class="text-center font-WalterTurncoat text-lg">
+            <div class="text-center font-NanumBrushScript text-3xl">
                 {unsolicited.advice}
             </div>
         </div>

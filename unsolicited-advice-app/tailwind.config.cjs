@@ -13,7 +13,9 @@ module.exports = {
         PatrickHand: ['Patrick Hand'],
         Gaegu: ['Gaegu'],
         PatrickHandSC: ['Patrick Hand SC'],
-        WalterTurncoat: ['Walter Turncoat']
+        WalterTurncoat: ['Walter Turncoat'],
+        RockSalt: ['Rock Salt'],
+        NanumBrushScript: ['Nanum Brush Script']
       },
       backgroundImage: {
         'trash': "url('./src/images/trash.jpg')"
