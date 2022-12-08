@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'nerkoOne': 'Nerko One'
-      }
+        HanaleiFill: ['Hanalei Fill'],
+        Comfortaa : ['Comfortaa']
+      },
     },
   },
   plugins: [],

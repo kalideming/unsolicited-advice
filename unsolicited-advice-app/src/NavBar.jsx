@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <div class="bg-black text-white">
-            <nav class="justify-start space-x-28">
-                <span class="font-nerkoOne">
+        <div class="bg-black text-white h-19">
+            <nav class="justify-start space-x-20">
+                <span class="font-HanaleiFill text-5xl">
                     <Link to="/">
                         Unsolicited Advice
                     </Link>
