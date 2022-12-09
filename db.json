@@ -1,154 +1,76 @@
 {
   "unsolicited": [
-      {
-          "id": 1,
-          "topic": "relationships",
-          "relation": "family",
-          "advice": "filler advice"
-      },
-      {
-          "id": 2,
-          "topic": "relationships",
-          "relation": "friend",
-          "advice": "filler advice"
-      },
-      {
-          "id": 3,
-          "topic": "relationships",
-          "relation": "partner",
-          "advice": "filler advice"
-      },
-      {
-          "id": 4,
-          "topic": "relationships",
-          "relation": "coworker",
-          "advice": "filler advice"
-      },
-      {
-          "id": 5,
-          "topic": "relationships",
-          "relation": "absolute stranger",
-          "advice": "filler advice"
-      },
-      {
-          "id": 6,
-          "topic": "health",
-          "relation": "family",
-          "advice": "filler advice"
-      },
-      {
-          "id": 7,
-          "topic": "health",
-          "relation": "friend",
-          "advice": "filler advice"
-      },
-      {
-          "id": 8,
-          "topic": "health",
-          "relation": "partner",
-          "advice": "filler advice"
-      },
-      {
-          "id": 9,
-          "topic": "health",
-          "relation": "coworker",
-          "advice": "filler advice"
-      },
-      {
-          "id": 10,
-          "topic": "health",
-          "relation": "absolute stranger",
-          "advice": "filler advice"
-      },
-      {
-          "id": 11,
-          "topic": "finances",
-          "relation": "family",
-          "advice": "filler advice"
-      },
-      {
-          "id": 12,
-          "topic": "finances",
-          "relation": "friend",
-          "advice": "filler advice"
-      },
-      {
-          "id": 13,
-          "topic": "finances",
-          "relation": "partner",
-          "advice": "filler advice"
-      },
-      {
-          "id": 14,
-          "topic": "finances",
-          "relation": "coworker",
-          "advice": "filler advice"
-      },
-      {
-          "id": 15,
-          "topic": "finances",
-          "relation": "absolute stranger",
-          "advice": "filler advice"
-      },
-      {
-          "id": 16,
-          "topic": "work",
-          "relation": "family",
-          "advice": "filler advice"
-      },
-      {
-          "id": 17,
-          "topic": "work",
-          "relation": "friend",
-          "advice": "filler advice"
-      },
-      {
-          "id": 18,
-          "topic": "work",
-          "relation": "partner",
-          "advice": "filler advice"
-      },
-      {
-          "id": 19,
-          "topic": "work",
-          "relation": "coworker",
-          "advice": "filler advice"
-      },
-      {
-          "id": 20,
-          "topic": "work",
-          "relation": "absolute stranger",
-          "advice": "filler advice"
-      },
-      {
-          "id": 21,
-          "topic": "miscellaneous",
-          "relation": "family",
-          "advice": "filler advice"
-      },
-      {
-          "id": 22,
-          "topic": "miscellaneous",
-          "relation": "friend",
-          "advice": "filler advice"
-      },
-      {
-          "id": 23,
-          "topic": "miscellaneous",
-          "relation": "partner",
-          "advice": "filler advice"
-      },
-      {
-          "id": 24,
-          "topic": "miscellaneous",
-          "relation": "coworker",
-          "advice": "filler advice"
-      },
-      {
-          "id": 25,
-          "topic": "miscellaneous",
-          "relation": "absolute stranger",
-          "advice": "filler advice"
-      }
+    {
+      "id": 1,
+      "topic": "work",
+      "relation": "family",
+      "advice": "If your job is stressful, just quit…"
+    },
+    {
+      "id": 2,
+      "topic": "wellness",
+      "relation": "coworker",
+      "advice": "Don’t pop your pimples like a little bitch—cut into them with a straight razor. "
+    },
+    {
+      "id": 3,
+      "topic": "finance",
+      "relation": "family",
+      "advice": "Max out your credit cards. File bankruptcy. Rinse and repeat baby"
+    },
+    {
+      "id": 4,
+      "topic": "relationships",
+      "relation": "family",
+      "advice": "Stay with your partner. You’re nearly 30. Sure, they’re mean, but all the good ones are already taken. You waited too long. I am obviously very healthy and in a very happy marriage and this worldview isn’t detrimental whatsoever. "
+    },
+    {
+      "id": 5,
+      "topic": "wellness",
+      "relation": "absolute stranger",
+      "advice": "The best way to avoid a hangover is to never stop drinking [*cries in AA*]"
+    },
+    {
+      "id": 6,
+      "topic": "wellness",
+      "relation": "partner",
+      "advice": "Exercise can literally replace therapy."
+    },
+    {
+      "id": 7,
+      "topic": "wellness",
+      "relation": "friend",
+      "advice": "If you’re depressed, then just don’t? Like just stop being depressed. Easy. Boombadabing baybeeeee *jazz hands*"
+    },
+    {
+      "id": 8,
+      "topic": "wellness",
+      "relation": "friend",
+      "advice": "Do something that scares you at least once a day, like base jumping, or hijacking a helicopter, or stealing an animal from the zoo, or calling your mom. It’s good for mental fortitude."
+    },
+    {
+      "id": 9,
+      "topic": "wellness",
+      "relation": "family",
+      "advice": "Revamping your lifestyle in a healthy way is too big an undertaking—just have a can of tuna and an apple once a day at breakfast instead. Easy and effective weight-loss. Everyone loves morning tuna. "
+    },
+    {
+      "id": 10,
+      "topic": "miscellaneous",
+      "relation": "absolute stranger",
+      "advice": "10If you close your eyes no one can see you."
+    },
+    {
+      "id": 11,
+      "topic": "wellness",
+      "relation": "friend",
+      "advice": "Don’t go to the ER unless you’re absolutely positive that you’re dying"
+    },
+    {
+      "id": 12,
+      "topic": "miscellaneous",
+      "relation": "absolute stranger",
+      "advice": "Smile more"
+    }
   ]
 }
