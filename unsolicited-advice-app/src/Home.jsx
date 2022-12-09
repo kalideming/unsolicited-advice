@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-      <div class="block max-w-screen-md justify-self-center object-center m-20 bg-white bg-opacity-60 rounded-lg border-neutral-800 border-2">
-        <div class="text-center m-8 font-Barrio text-4xl">
+      <div class="self-center items-center object-center m-20 bg-white bg-opacity-60 rounded-lg border-neutral-800 border-2">
+        <div class="text-center m-8 font-Barrio text-5xl">
           <h1>
           Welcome To The Online Dumpster-Gallery Of Advice No One Wants.
         </h1></div>
@@ -24,12 +24,12 @@ function Home() {
         </div>
         <span>
           <div>
-            <div class="items-center text-center self-center m-4 font-Barrio text-2xl border-2 bg-white border-black rounded">
+            <div class="text-center self-center m-4 font-Barrio text-2xl border-2 bg-white border-black rounded">
             <Link className="button" to="/new">
             Tell Everyone How To Live Their Lives
             </Link>
             </div>
-            <div class="items-center self-center text-center m-4 font-Barrio text-2xl border-2 bg-white border-black rounded">
+            <div class="text-center m-4 font-Barrio text-2xl border-2 bg-white border-black rounded">
             <Link className="button" to="/advice">
             Be Told How To Live Your Life
             </Link></div>
