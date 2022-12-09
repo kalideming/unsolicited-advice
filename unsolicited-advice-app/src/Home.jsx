@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-      <div class="block max-w-screen-md relative object-center m-20 bg-white bg-opacity-60 rounded-lg border-neutral-800 border-2">
+      <div class="block max-w-screen-md justify-self-center object-center m-20 bg-white bg-opacity-60 rounded-lg border-neutral-800 border-2">
         <div class="text-center m-8 font-Barrio text-4xl">
           <h1>
           Welcome To The Online Dumpster-Gallery Of Advice No One Wants.

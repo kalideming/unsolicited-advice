@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 html {
-    max-width: 1227px;
+    overflow-x: hidden;
 }
 body {
+    position: relative;
     background-image: url("./images/trash.jpg");
     background-size: 100vmax;
     background-position:initial;
-    background-attachment: scroll;
+    /* max-width: 100% !important; */
 }

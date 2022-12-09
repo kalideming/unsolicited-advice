@@ -15,7 +15,8 @@ module.exports = {
         PatrickHandSC: ['Patrick Hand SC'],
         WalterTurncoat: ['Walter Turncoat'],
         RockSalt: ['Rock Salt'],
-        NanumBrushScript: ['Nanum Brush Script']
+        NanumBrushScript: ['Nanum Brush Script'],
+        RubikMonoOne: ['Rubik Mono One']
       },
       backgroundImage: {
         'trash': "url('./src/images/trash.jpg')"
