@@ -12,17 +12,20 @@ Be nice, use Unsolicited Advice.
 ## Objectives + Core Features
 Unsolicited Advice acts as a repository for unwanted guidance. As a user, I can:
 
-1. View all unsolicited advice on the homepage. Each submission will appear as a card on the homepage, organized into rows.
+1. Immediately be directed to a home landing page, where I can read about Unsolicited Advice, what it is, and what it does.
 
-2. Filter the unsolicited advice by category (e.g. romance, work, mental health, etc.) and/or recipient (e.g. mom, coworker, husband, friend).
+2. Click the navigation button for "All The Shit Advice" and be directed to a page containing all the advice submissions on a single page. This page will render without refreshing, using client-side routing.
 
-3. Search the unsolicited advice database via keyword.
+3. Utilize the search bar on the "All The Shit Advice" page, typing in a keyword that will filter through the database based on the "advice" key's value.
 
-4. Add my own unsolicited advice by inputting the following fields:
+4. Click the link in the Nav Bar and be directed to the "Add Your Shit" page. This page will also render without refreshing, using client-side routing.
+
+5. Add my own unsolicited advice by inputting the following fields:
     - Category/Theme
     - Recipient Relation
     - Advice
+The advice will then be added to database, thus being rendered when I navigate to the "All The Shit Advice" page.
 
-5. Update and delete advice from the repository. 
+## Bonus Objective:
 
 6. If after adding my own unsolicited advice, I still have the unbearable urge to spew my self-declared enlightenment at others, I can head to the bottom of the page and click "Generate Advice" button, which will provide me with a randomized sage quote from a famous figure via an external API, because it is better to regurgitate a blanket-statement from Ghandi than tell someone how to live their lives. 
